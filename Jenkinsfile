@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
-        jdk 'JDK'
+        maven 'Maven_3.8.7'
+        jdk 'JDK_17'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/SNEHARAJU21/MAVENWEBAPPWAR.git'
+                git 'https://github.com/SHASHANK9060/TOMCAT.git'
             }
         }
 
